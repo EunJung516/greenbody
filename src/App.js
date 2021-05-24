@@ -9,11 +9,11 @@ import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 function App() {
   return (
     <Router>
-        <Route exact path="/greenbody/" component={LoginPage}/>
-        <Route path="/greenbody/join" component={JoinPage}/>
-        <Route path="/greenbody/myPage" component={MyPage}/>
-        <Route path="/greenbody/myLog" component={MyLogPage}/>
-        <Route path="/greenbody/community" component={CommunityPage}/>
+        <Route exact path="/" component={LoginPage}/>
+        <Route path="/join" component={JoinPage}/>
+        <Route path="/myPage" component={MyPage}/>
+        <Route path="/myLog" component={MyLogPage}/>
+        <Route path="/community" component={CommunityPage}/>
     </Router>
   );
 }
