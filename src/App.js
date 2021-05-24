@@ -9,7 +9,7 @@ import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 function App() {
   return (
     <Router>
-        <Route exact path="/" component={LoginPage}/>
+        <Route exactpath="/" component={LoginPage}/>
         <Route path="/join" component={JoinPage}/>
         <Route path="/myPage" component={MyPage}/>
         <Route path="/myLog" component={MyLogPage}/>
